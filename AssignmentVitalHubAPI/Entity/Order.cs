@@ -6,7 +6,6 @@ namespace AssignmentVitalHubAPI.Model.Entity
 	{
 		public int? CustomerPhoneNo { get; set; }
 		public int? DeliveryPersonPhoneNo { get; set; }
-
 		public OrderThrough? OrderThroughId { get; set; }
 		public OrderType? OrderTypeId { get; set; }
 		public OrderStatus? OrderStatusId { get; set; }
